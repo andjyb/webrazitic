@@ -1,0 +1,7 @@
+# Autorise tous les moteurs de recherche à parcourir le site
+User-agent: *
+Allow: /
+Disallow: /merci.html
+
+# Plan du site
+Sitemap: https://www.razitic.com/sitemap.xml

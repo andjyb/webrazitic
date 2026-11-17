@@ -1,0 +1,8 @@
+# Configuration Netlify : en-têtes dans _headers.
+
+# Publication : site statique, aucune étape de construction, dossier racine publié tel quel.
+[build]
+  publish = "."
+  command = ""
+
+# Les fichiers internes (guide, cahier des charges, fichiers Git) sont masqués dans _redirects.

@@ -1,0 +1,5 @@
+# Signaler une faille de sécurité sur ce site
+Contact: https://www.razitic.com/#contact
+Expires: 2027-11-17T00:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://www.razitic.com/.well-known/security.txt

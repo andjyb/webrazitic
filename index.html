@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Sécurité : seules les ressources du site et le service de formulaire sont autorisés -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formsubmit.co https://formspree.io; form-action 'self' https://formsubmit.co https://formspree.io https://www.razitic.com; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- ===== SEO : titre et description de la page (à personnaliser) ===== -->
+  <title>Razitic | Votre informatique, notre expertise. Informaticien à distance</title>
+  <meta name="description" content="Informaticien à distance : site vitrine livré en 7 jours, maintenance et support informatique pour indépendants et petites entreprises francophones.">
+  <link rel="canonical" href="https://www.razitic.com/">
+  <meta name="theme-color" content="#0070b5">
+
+  <!-- ===== Partage sur les réseaux sociaux (Open Graph) ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Razitic">
+  <meta property="og:title" content="Razitic | Votre informatique. Notre expertise.">
+  <meta property="og:description" content="Un site professionnel, entretenu, et une aide informatique quand vous en avez besoin. Pour indépendants et petites entreprises francophones.">
+  <meta property="og:url" content="https://www.razitic.com/">
+  <meta property="og:image" content="https://www.razitic.com/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Razitic : votre informatique, notre expertise. Infogérance, cloud, cybersécurité, automatisation et IA">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- ===== Données structurées schema.org (lues par Google) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Razitic",
+    "slogan": "Votre informatique. Notre expertise.",
+    "logo": "https://www.razitic.com/assets/img/logo-razitic.png",
+    "description": "Informaticien indépendant 100 % à distance : création de sites vitrines, maintenance de sites et support informatique pour indépendants et petites entreprises.",
+    "url": "https://www.razitic.com/",
+    "email": "contact@razitic.com",
+    "telephone": "+261342042286",
+    "image": "https://www.razitic.com/assets/img/og-image.png",
+    "inLanguage": "fr",
+    "areaServed": [
+      { "@type": "Country", "name": "France" },
+      { "@type": "Country", "name": "Belgique" },
+      { "@type": "Country", "name": "Suisse" },
+      { "@type": "AdministrativeArea", "name": "Québec" },
+      { "@type": "Country", "name": "Madagascar" },
+      { "@type": "Place", "name": "Afrique francophone" }
+    ],
+    "paymentAccepted": "PayPal",
+    "currenciesAccepted": "EUR",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Offres",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Site vitrine clé en main" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Maintenance du site" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Support informatique à distance" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pack Sérénité" } }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Vos informations (nom, email, prix, formulaire) : assets/js/config.js -->
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="lien-evitement" href="#contenu">Aller au contenu</a>
+
+  <!-- ================================================================
+       EN-TÊTE
+       ================================================================ -->
+  <header class="site-header">
+    <div class="conteneur entete-interieur">
+      <a class="logo" href="#accueil" aria-label="Razitic, accueil">
+        <img src="assets/img/logo-razitic.png" alt="Razitic" width="582" height="120">
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Ouvrir le menu">
+        <svg class="icone-ouvrir" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <svg class="icone-fermer" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+
+      <nav class="nav-principale" id="menu-principal" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#offres">Offres et tarifs</a></li>
+          <li><a href="#fonctionnement">Comment ça marche</a></li>
+          <li><a href="#realisations">Exemples</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn-primaire" href="#contact">Demander un devis gratuit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ================================================================
+         ACCUEIL
+         ================================================================ -->
+    <section class="hero" id="accueil" aria-labelledby="titre-accueil">
+      <div class="conteneur hero-grille">
+        <div class="hero-texte">
+          <span class="surtitre">Infogérance · Cloud · Cybersécurité · Automatisation &amp;&nbsp;IA</span>
+          <h1 id="titre-accueil">Votre informatique. <span class="accent">Notre&nbsp;expertise.</span></h1>
+          <p>Un site professionnel, entretenu, et une aide informatique quand vous en avez besoin. Votre informaticien indépendant, 100&nbsp;% à distance et sans jargon.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primaire" href="#contact">Demander un devis gratuit</a>
+            <a class="btn btn-secondaire" href="#offres">Voir les offres</a>
+          </div>
+          <ul class="reassurance">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Premier échange gratuit</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Sans jargon technique</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Prix clairs et fixes</li>
+          </ul>
+        </div>
+
+        <div class="hero-illustration">
+          <!-- Illustration légère : un site, une conversation, un bouclier -->
+          <svg viewBox="0 0 520 420" role="img" aria-label="Illustration : un site web, une bulle de conversation et un bouclier de sécurité">
+            <circle cx="270" cy="210" r="190" fill="#e6f4fb"/>
+            <!-- fenêtre de navigateur -->
+            <rect x="70" y="80" width="340" height="240" rx="16" fill="#fff" stroke="#c9d6e8" stroke-width="2"/>
+            <path d="M70 96a16 16 0 0 1 16-16h308a16 16 0 0 1 16 16v20H70z" fill="#0070b5"/>
+            <circle cx="92" cy="98" r="5" fill="#19b9ee"/>
+            <circle cx="110" cy="98" r="5" fill="#ffffff" opacity=".7"/>
+            <circle cx="128" cy="98" r="5" fill="#ffffff" opacity=".7"/>
+            <rect x="150" y="91" width="180" height="14" rx="7" fill="#ffffff" opacity=".25"/>
+            <!-- contenu du site -->
+            <rect x="96" y="140" width="150" height="16" rx="8" fill="#0070b5"/>
+            <rect x="96" y="168" width="200" height="10" rx="5" fill="#c9d6e8"/>
+            <rect x="96" y="186" width="170" height="10" rx="5" fill="#c9d6e8"/>
+            <rect x="96" y="212" width="92" height="28" rx="14" fill="#19b9ee"/>
+            <rect x="96" y="260" width="88" height="40" rx="8" fill="#e6f4fb"/>
+            <rect x="196" y="260" width="88" height="40" rx="8" fill="#e6f4fb"/>
+            <rect x="296" y="260" width="88" height="40" rx="8" fill="#e6f4fb"/>
+            <rect x="306" y="140" width="80" height="100" rx="10" fill="#e6f4fb"/>
+            <path d="M322 214l18-24 14 16 10-10 14 18z" fill="#9db7da"/>
+            <circle cx="366" cy="164" r="9" fill="#9db7da"/>
+            <!-- bulle de conversation -->
+            <g>
+              <path d="M330 22h132a18 18 0 0 1 18 18v52a18 18 0 0 1-18 18h-86l-24 20v-20h-22a18 18 0 0 1-18-18V40a18 18 0 0 1 18-18z" fill="#fff" stroke="#c9d6e8" stroke-width="2"/>
+              <rect x="336" y="46" width="112" height="10" rx="5" fill="#0070b5"/>
+              <rect x="336" y="66" width="84" height="10" rx="5" fill="#c9d6e8"/>
+            </g>
+            <!-- bouclier -->
+            <g>
+              <path d="M70 282l50-20 50 20v34c0 34-22 56-50 66-28-10-50-32-50-66z" fill="#0070b5"/>
+              <path d="M98 318l15 15 30-32" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <!-- petites étincelles -->
+            <path d="M462 300l6 14 14 6-14 6-6 14-6-14-14-6 14-6z" fill="#19b9ee"/>
+            <circle cx="40" cy="180" r="7" fill="#9db7da"/>
+            <circle cx="470" cy="200" r="5" fill="#9db7da"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bénéfices -->
+    <section class="section section-alt" aria-labelledby="titre-benefices">
+      <div class="conteneur">
+        <div class="section-titre">
+          <span class="surtitre">Ce que vous y gagnez</span>
+          <h2 id="titre-benefices">L'informatique, enfin sans soucis</h2>
+          <p>Vous n'avez pas de service informatique&nbsp;? Pas de problème&nbsp;: je joue ce rôle pour vous, à distance, avec des explications simples.</p>
+        </div>
+
+        <div class="grille-3">
+          <article class="carte">
+            <span class="icone-ronde" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Vous gagnez du temps</h3>
+            <p>Plus besoin de chercher des tutoriels ou de batailler avec les réglages. Vous m'expliquez votre besoin, je m'en occupe et je vous tiens informé.</p>
+          </article>
+          <article class="carte">
+            <span class="icone-ronde" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Vous êtes trouvé sur Google</h3>
+            <p>Un site clair, rapide et bien construit, pour que vos futurs clients vous trouvent, comprennent ce que vous proposez et vous contactent facilement.</p>
+          </article>
+          <article class="carte">
+            <span class="icone-ronde" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M12 3l8 3v6c0 4.5-3.2 7.8-8 9-4.8-1.2-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Vous ne subissez plus les pannes</h3>
+            <p>Messagerie, sauvegardes, sécurité de base&nbsp;: tout est configuré correctement et suivi régulièrement. Les mauvaises surprises deviennent rares.</p>
+          </article>
+        </div>
+
+        <div class="zones">
+          <p>J'accompagne les indépendants et petites entreprises francophones, où qu'ils soient&nbsp;:</p>
+          <ul>
+            <li>France</li>
+            <li>Belgique</li>
+            <li>Suisse</li>
+            <li>Québec</li>
+            <li>Madagascar</li>
+            <li>Afrique francophone</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         OFFRES ET TARIFS
+         Les PRIX se modifient dans assets/js/config.js
+         Les TEXTES des offres se modifient directement ci-dessous.
+         ================================================================ -->
+    <section class="section" id="offres" aria-labelledby="titre-offres">
+      <div class="conteneur">
+        <div class="section-titre">
+          <span class="surtitre">Offres et tarifs</span>
+          <h2 id="titre-offres">Des offres simples, des prix clairs</h2>
+          <p>Choisissez ce dont vous avez besoin, ni plus ni moins. Chaque offre est détaillée dans un devis gratuit avant tout engagement.</p>
+        </div>
+
+        <div class="offres">
+
+          <!-- ===== OFFRE 1 : Site vitrine ===== -->
+          <article class="offre">
+            <span class="icone-ronde" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="4" width="18" height="16" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 9h18" stroke="currentColor" stroke-width="2"/><circle cx="6.5" cy="6.5" r=".9" fill="currentColor"/><circle cx="9.5" cy="6.5" r=".9" fill="currentColor"/></svg>
+            </span>
+            <h3>Site vitrine clé en main</h3>
+            <p class="offre-resume">Un site professionnel pour présenter votre activité et être contacté.</p>
+            <p class="prix">
+              <span class="prix-montant"><span data-cfg="prix.site">[PRIX]</span>&nbsp;€</span>
+              <span class="prix-note">paiement unique</span>
+            </p>
+            <ul class="liste-coches">
+              <li>5 pages sur mesure (ex. accueil, services, à propos, tarifs, contact)</li>
+              <li>Livré en 7 jours après réception de vos contenus</li>
+              <li>Une série de retouches incluse</li>
+              <li>Adapté aux téléphones et aux tablettes</li>
+              <li>Bases du référencement Google</li>
+              <li>Formulaire de contact</li>
+            </ul>
+            <a class="btn btn-secondaire btn-bloc" href="#contact" data-besoin="Site vitrine">Demander un devis</a>
+          </article>
+
+          <!-- ===== OFFRE 2 : Maintenance ===== -->
+          <article class="offre">
+            <span class="icone-ronde" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.1L4 16.7V20h3.3l5.3-5.3a4 4 0 0 0 5.1-5.4l-2.6 2.6-2.4-.4-.4-2.4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Maintenance du site</h3>
+            <p class="offre-resume">Votre site reste en ligne, à jour et sécurisé, sans que vous ayez à y penser.</p>
+            <p class="prix">
+              <span class="prix-montant"><span data-cfg="prix.maintenance">[PRIX]</span>&nbsp;€</span>
+              <span class="prix-unite">/ mois</span>
+              <span class="prix-note">sans engagement de durée</span>
+            </p>
+            <ul class="liste-coches">
+              <li>Hébergement du site inclus</li>
+              <li>Mises à jour et surveillance</li>
+              <li>Sauvegardes régulières</li>
+              <li>Petites modifications&nbsp;: <span data-cfg="modificationsIncluses">[NOMBRE]</span> par mois (un texte, un horaire, une photo…)</li>
+            </ul>
+            <a class="btn btn-secondaire btn-bloc" href="#contact" data-besoin="Maintenance">Demander un devis</a>
+          </article>
+
+          <!-- ===== OFFRE 3 : Support informatique ===== -->
+          <article class="offre">
+            <span class="icone-ronde" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false"><path d="M4 13v-1a8 8 0 0 1 16 0v1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><rect x="3" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="17" y="13" width="4" height="6" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M19 19c0 1.5-1.5 2-3.5 2H13" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </span>
+            <h3>Support informatique à distance</h3>
+            <p class="offre-resume">Un informaticien disponible sur rendez-vous pour vos outils du quotidien.</p>
+            <p class="prix">
+              <span class="prix-montant"><span data-cfg="prix.support">[PRIX]</span>&nbsp;€</span>
+              <span class="prix-unite">/ mois</span>
+              <span class="prix-note">sans engagement de durée</span>
+            </p>
+            <ul class="liste-coches">
+              <li>Configuration de votre messagerie</li>
+              <li>Microsoft 365 ou Google Workspace</li>
+              <li>Mise en place des sauvegardes</li>
+              <li>Sécurité de base (mots de passe, double authentification, antivirus)</li>
+              <li><span data-cfg="supportCreneaux">[NOMBRE] créneau(x) de [DURÉE] par mois</span>, planifiés ensemble</li>
+              <li class="non-inclus">Pas de dépannage d'urgence</li>
+            </ul>
+            <a class="btn btn-secondaire btn-bloc" href="#contact" data-besoin="Support informatique">Demander un devis</a>
+          </article>
+        </div>
+
+        <!-- ===== PACK SÉRÉNITÉ (offres 2 + 3) ===== -->
+        <div class="pack" aria-labelledby="titre-pack">
+          <div>
+            <span class="badge">Le plus complet</span>
+            <h3 id="titre-pack">Pack Sérénité</h3>
+            <p>La maintenance de votre site <strong>et</strong> le support informatique réunis en un seul abonnement. Un seul interlocuteur pour tout ce qui touche à l'informatique de votre activité.</p>
+            <ul class="liste-coches">
+              <li>Tout le contenu de l'offre Maintenance du site</li>
+              <li>Tout le contenu de l'offre Support informatique</li>
+              <li>Un tarif plus avantageux que les deux offres séparées</li>
+            </ul>
+          </div>
+          <div class="pack-prix">
+            <p class="prix">
+              <span class="prix-montant"><span data-cfg="prix.pack">[PRIX]</span>&nbsp;€</span>
+              <span class="prix-unite">/ mois</span>
+              <span class="prix-note">au lieu de <span data-cfg="prix.maintenance">[PRIX]</span>&nbsp;€ + <span data-cfg="prix.support">[PRIX]</span>&nbsp;€ séparément</span>
+            </p>
+            <a class="btn btn-clair btn-bloc" href="#contact" data-besoin="Pack Sérénité">Choisir la sérénité</a>
+          </div>
+        </div>
+
+        <p class="mention-offres">Prix en euros. Le nom de domaine (l'adresse de votre site, environ 10 à 20&nbsp;€ par an) est enregistré à votre nom et reste votre propriété.</p>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         COMMENT ÇA MARCHE
+         ================================================================ -->
+    <section class="section section-alt" id="fonctionnement" aria-labelledby="titre-fonctionnement">
+      <div class="conteneur">
+        <div class="section-titre">
+          <span class="surtitre">Comment ça marche</span>
+          <h2 id="titre-fonctionnement">4 étapes, tout à distance</h2>
+          <p>Pas besoin de vous déplacer&nbsp;: tout se fait en visio, par email et par partage d'écran, à des horaires qui vous conviennent.</p>
+        </div>
+
+        <ol class="etapes">
+          <li class="etape">
+            <span class="etape-num" aria-hidden="true">1</span>
+            <h3>Premier échange en visio</h3>
+            <p>Un appel gratuit et sans engagement pour comprendre votre activité, vos besoins et vos priorités.</p>
+          </li>
+          <li class="etape">
+            <span class="etape-num" aria-hidden="true">2</span>
+            <h3>Devis clair</h3>
+            <p>Vous recevez un devis détaillé, avec ce qui est inclus, les délais et le prix. Vous prenez le temps de décider.</p>
+          </li>
+          <li class="etape">
+            <span class="etape-num" aria-hidden="true">3</span>
+            <h3>Réalisation</h3>
+            <p>Je réalise le travail et vous tiens informé à chaque étape. Vous validez avant la mise en ligne.</p>
+          </li>
+          <li class="etape">
+            <span class="etape-num" aria-hidden="true">4</span>
+            <h3>Suivi</h3>
+            <p>Je reste disponible pour la suite&nbsp;: maintenance du site, support informatique ou simple question.</p>
+          </li>
+        </ol>
+
+        <div class="encart-paiement">
+          <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect x="4" y="16" width="32" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M12 16v-4a8 8 0 0 1 16 0v4" fill="none" stroke="currentColor" stroke-width="2.6"/><circle cx="20" cy="26" r="3" fill="currentColor"/></svg>
+          <p><strong>Acompte de 50&nbsp;% au démarrage, paiement sécurisé par PayPal.</strong> Le solde est réglé à la livraison. Vous pouvez payer par carte bancaire via PayPal, même sans compte PayPal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         RÉALISATIONS (pour l'instant : 3 exemples types, signalés « Exemple »)
+         Pour remplacer un exemple par un vrai projet client : remplacez le bloc <svg> d'un projet par
+         <img src="assets/img/projet-1.webp" alt="Description du site" width="800" height="500" loading="lazy">
+         puis changez le titre et le texte. (Voir README.md)
+         ================================================================ -->
+    <section class="section" id="realisations" aria-labelledby="titre-realisations">
+      <div class="conteneur">
+        <div class="section-titre">
+          <span class="surtitre">Exemples</span>
+          <h2 id="titre-realisations">Exemples de projets</h2>
+          <p>Trois exemples concrets de ce que je peux mettre en place pour vous, selon votre activité.</p>
+        </div>
+
+        <div class="grille-3">
+
+          <!-- ===== PROJET 1 ===== -->
+          <article class="projet">
+            <div class="projet-visuel">
+              <img src="assets/img/projet-kine.webp" alt="Exemple de site pour un cabinet de kinésithérapie, affiché sur ordinateur et sur téléphone, avec un bouton de prise de rendez-vous" width="1600" height="1000" loading="lazy" decoding="async">
+            </div>
+            <div class="projet-corps">
+              <span class="etiquette">Exemple · Site vitrine</span>
+              <h3>Cabinet de kinésithérapie</h3>
+              <p>Un site de 5 pages pour présenter le cabinet, les soins proposés et les horaires, avec un lien de prise de rendez-vous en ligne. Résultat recherché&nbsp;: être trouvé par les patients du quartier et recevoir moins d'appels pour des questions pratiques.</p>
+            </div>
+          </article>
+
+          <!-- ===== PROJET 2 ===== -->
+          <article class="projet">
+            <div class="projet-visuel">
+              <img src="assets/img/projet-menuisier.webp" alt="Exemple de site pour un artisan menuisier, avec une galerie de réalisations, sur ordinateur et sur téléphone" width="1600" height="1000" loading="lazy" decoding="async">
+            </div>
+            <div class="projet-corps">
+              <span class="etiquette">Exemple · Site + maintenance</span>
+              <h3>Artisan menuisier</h3>
+              <p>Des pages par type de travaux, une galerie de chantiers enrichie chaque mois et un formulaire de demande de devis. L'artisan envoie ses photos par email, le site est mis à jour sans qu'il ait à s'en occuper.</p>
+            </div>
+          </article>
+
+          <!-- ===== PROJET 3 ===== -->
+          <article class="projet">
+            <div class="projet-visuel">
+              <img src="assets/img/projet-bureau.webp" alt="Exemple d'espace de travail configuré pour une agence de 6 personnes : emails professionnels, agenda partagé, sauvegardes et double authentification" width="1600" height="1000" loading="lazy" decoding="async">
+            </div>
+            <div class="projet-corps">
+              <span class="etiquette">Exemple · Support informatique</span>
+              <h3>Agence de 6 personnes</h3>
+              <p>Passage à Microsoft&nbsp;365&nbsp;: adresses email au nom de l'entreprise, agendas partagés, sauvegarde automatique des fichiers et double authentification pour chacun. Une équipe qui travaille sereinement, même à distance.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         FAQ — pour ajouter une question, copiez un bloc <details>…</details>
+         ================================================================ -->
+    <section class="section section-alt" id="faq" aria-labelledby="titre-faq">
+      <div class="conteneur">
+        <div class="section-titre">
+          <span class="surtitre">Questions fréquentes</span>
+          <h2 id="titre-faq">Vos questions, mes réponses</h2>
+          <p>Vous ne trouvez pas votre réponse&nbsp;? Écrivez-moi, je vous réponds avec plaisir.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Combien de temps faut-il pour créer mon site&nbsp;?</summary>
+            <div class="faq-reponse">
+              <p>Votre site vitrine est livré en 7 jours à partir du moment où j'ai reçu vos contenus (textes, logo, photos) et l'acompte. Si vous n'avez pas encore vos textes, je peux vous guider pour les préparer.</p>
+              <p>Pour le support informatique, le premier créneau est généralement planifié dans la semaine qui suit votre demande.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Comment se passe le travail à distance&nbsp;? Et le décalage horaire&nbsp;?</summary>
+            <div class="faq-reponse">
+              <p>Tout se fait en ligne&nbsp;: visio, email et partage d'écran. Vous n'avez rien à installer de compliqué, je vous explique chaque étape simplement.</p>
+              <p>Je travaille à l'<span data-cfg="fuseau">heure de Paris</span>. Si vous êtes au Québec, en Afrique ou ailleurs, nous choisissons ensemble des créneaux qui conviennent à nos deux fuseaux horaires.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Quels sont les modes de paiement&nbsp;?</summary>
+            <div class="faq-reponse">
+              <p>Le paiement se fait par PayPal, qui est sécurisé&nbsp;: vous pouvez régler avec votre compte PayPal ou directement par carte bancaire, sans créer de compte. Les prix sont en euros, PayPal se charge de la conversion si besoin.</p>
+              <p>Pour la création d'un site&nbsp;: 50&nbsp;% d'acompte au démarrage, le solde à la livraison. Pour la maintenance et le support&nbsp;: un paiement chaque mois. Vous recevez une facture à chaque paiement.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Qu'est-ce qui est inclus dans la maintenance, et qu'est-ce qui ne l'est pas&nbsp;?</summary>
+            <div class="faq-reponse">
+              <p><strong>Inclus&nbsp;:</strong></p>
+              <ul>
+                <li>l'hébergement de votre site&nbsp;;</li>
+                <li>les mises à jour techniques et la surveillance du bon fonctionnement&nbsp;;</li>
+                <li>les sauvegardes régulières&nbsp;;</li>
+                <li>les petites modifications chaque mois&nbsp;: changer un texte, un horaire, un prix, une photo.</li>
+              </ul>
+              <p><strong>Non inclus</strong> (sur devis à part)&nbsp;: la création de nouvelles pages, une refonte du design, la rédaction de contenus longs et l'achat du nom de domaine, qui reste à votre nom.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Le support informatique, c'est du dépannage d'urgence&nbsp;?</summary>
+            <div class="faq-reponse">
+              <p>Non. Le support fonctionne sur des créneaux planifiés à l'avance, ce qui permet de faire les choses bien et au calme&nbsp;: configurer votre messagerie, Microsoft 365 ou Google Workspace, vos sauvegardes, la sécurité de vos comptes. L'objectif est justement d'éviter les urgences.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Puis-je arrêter mon abonnement&nbsp;?</summary>
+            <div class="faq-reponse">
+              <p>Oui. La maintenance, le support et le pack Sérénité sont sans engagement de durée&nbsp;: vous pouvez arrêter quand vous le souhaitez, avec un simple email, avant la fin du mois en cours.</p>
+              <p>Votre site vous appartient&nbsp;: en cas d'arrêt, je vous remets tous ses fichiers et je vous aide à le transférer si vous le souhaitez.</p>
+            </div>
+          </details>
+
+          <details>
+            <summary>Je n'y connais rien en informatique, est-ce un problème&nbsp;?</summary>
+            <div class="faq-reponse">
+              <p>Pas du tout, c'est même pour vous que ce service existe. Je parle simplement, sans jargon, et je prends le temps de vous expliquer ce qui compte pour vous.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         CONTACT
+         ================================================================ -->
+    <section class="section" id="contact" aria-labelledby="titre-contact">
+      <div class="conteneur contact-grille">
+        <div class="contact-infos">
+          <span class="surtitre">Contact</span>
+          <h2 id="titre-contact">Demandez votre devis gratuit</h2>
+          <p>Décrivez-moi votre besoin en quelques lignes. Je vous réponds sous 48&nbsp;h ouvrées pour fixer un premier échange en visio.</p>
+
+          <ul class="contact-points">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Devis gratuit et sans engagement</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Réponse claire, sans jargon</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Vos données restent confidentielles</li>
+          </ul>
+
+          <div class="contact-direct">
+            <p>Vous préférez écrire directement&nbsp;?</p>
+            <a class="btn btn-whatsapp" href="https://wa.me/261342042286" data-cfg-wa target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.22 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg>Discuter sur WhatsApp</a>
+            <p class="contact-ligne">WhatsApp&nbsp;: <span data-cfg="whatsappAffiche">+261 34 20 422 86</span></p>
+            <p class="contact-ligne">Email&nbsp;: <a href="mailto:contact@razitic.com" data-cfg-mail>contact@razitic.com</a></p>
+          </div>
+        </div>
+
+        <form class="formulaire" id="form-contact" action="https://formsubmit.co/contact@razitic.com" method="POST" novalidate>
+          <div class="champs-2">
+            <div class="champ">
+              <label for="nom">Nom et prénom</label>
+              <input id="nom" name="nom" type="text" maxlength="100" autocomplete="name" required aria-describedby="nom-erreur">
+              <p class="champ-erreur" id="nom-erreur" hidden></p>
+            </div>
+            <div class="champ">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" maxlength="254" autocomplete="email" required aria-describedby="email-erreur">
+              <p class="champ-erreur" id="email-erreur" hidden></p>
+            </div>
+          </div>
+
+          <div class="champs-2">
+            <div class="champ">
+              <label for="entreprise">Type d'entreprise</label>
+              <select id="entreprise" name="type_entreprise" required aria-describedby="entreprise-erreur">
+                <option value="">Choisissez…</option>
+                <option>Indépendant / freelance</option>
+                <option>Profession libérale</option>
+                <option>Artisan / commerçant</option>
+                <option>Petite entreprise (2 à 10 personnes)</option>
+                <option>Entreprise de plus de 10 personnes</option>
+                <option>Association</option>
+                <option>Autre</option>
+              </select>
+              <p class="champ-erreur" id="entreprise-erreur" hidden></p>
+            </div>
+            <div class="champ">
+              <label for="besoin">Votre besoin</label>
+              <select id="besoin" name="besoin" required aria-describedby="besoin-erreur">
+                <option value="">Choisissez…</option>
+                <option>Site vitrine</option>
+                <option>Maintenance</option>
+                <option>Support informatique</option>
+                <option>Pack Sérénité</option>
+                <option>Je ne sais pas encore</option>
+              </select>
+              <p class="champ-erreur" id="besoin-erreur" hidden></p>
+            </div>
+          </div>
+
+          <div class="champ">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" required minlength="10" maxlength="5000" aria-describedby="message-erreur" placeholder="Par exemple : je suis kinésithérapeute à Lyon et je souhaite un site pour présenter mon cabinet et mes horaires."></textarea>
+            <p class="champ-erreur" id="message-erreur" hidden></p>
+          </div>
+
+          <!-- Champ anti-spam invisible : ne pas supprimer -->
+          <div class="piege" aria-hidden="true">
+            <label for="site-web">Ne pas remplir</label>
+            <input id="site-web" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+            <label for="site-web-2">Ne pas remplir non plus</label>
+            <input id="site-web-2" type="text" name="_honey" tabindex="-1" autocomplete="off">
+          </div>
+          <input type="hidden" name="_subject" value="Nouvelle demande de devis depuis le site Razitic">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://www.razitic.com/merci.html">
+
+          <div class="champ champ-case">
+            <input id="consentement" name="consentement" type="checkbox" value="oui" required aria-describedby="consentement-erreur">
+            <label for="consentement">J'accepte que mes informations soient utilisées uniquement pour répondre à ma demande. <a href="mentions-legales.html#donnees">En savoir plus</a></label>
+          </div>
+          <p class="champ-erreur" id="consentement-erreur" hidden></p>
+
+          <button class="btn btn-primaire btn-bloc" type="submit">Envoyer ma demande</button>
+          <p class="form-statut" id="form-statut" role="status" aria-live="polite" hidden></p>
+          <p class="form-note">Tous les champs sont obligatoires.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Bandeau final -->
+    <section class="bandeau-cta" aria-labelledby="titre-bandeau">
+      <div class="conteneur">
+        <h2 id="titre-bandeau">Prêt à ne plus vous soucier de l'informatique&nbsp;?</h2>
+        <p>Un premier échange de 30 minutes, gratuit, pour faire le point sur vos besoins.</p>
+        <a class="btn btn-clair" href="#contact">Demander un devis gratuit</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================================
+       PIED DE PAGE
+       ================================================================ -->
+  <footer class="site-footer">
+    <div class="conteneur">
+      <div class="pied-grille">
+        <div>
+          <h2 class="pied-logo"><img src="assets/img/logo-razitic-blanc.png" alt="Razitic" width="582" height="120" loading="lazy"></h2>
+          <p class="pied-slogan">Votre informatique. Notre expertise.</p>
+          <p>Infogérance, cloud, cybersécurité, automatisation et IA&nbsp;: un site professionnel, entretenu, et une aide informatique quand vous en avez besoin.</p>
+        </div>
+        <nav aria-label="Liens du pied de page">
+          <h2>Navigation</h2>
+          <ul>
+            <li><a href="#offres">Offres et tarifs</a></li>
+            <li><a href="#fonctionnement">Comment ça marche</a></li>
+            <li><a href="#realisations">Exemples</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Contact</h2>
+          <ul>
+            <li><a href="#contact">Formulaire de devis</a></li>
+            <li><a href="mailto:contact@razitic.com" data-cfg-mail>contact@razitic.com</a></li>
+            <li><a href="https://wa.me/261342042286" data-cfg-wa target="_blank" rel="noopener noreferrer">WhatsApp&nbsp;: <span data-cfg="whatsappAffiche">+261 34 20 422 86</span></a></li>
+            <li><a href="mentions-legales.html">Mentions légales</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pied-bas">
+        <p>© <span data-annee>2026</span> <span data-cfg="nom">Razitic</span>. Tous droits réservés.</p>
+        <p>Paiement sécurisé par PayPal</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bouton WhatsApp flottant (numéro modifiable dans assets/js/config.js) -->
+  <a class="wa-flottant" href="https://wa.me/261342042286" data-cfg-wa target="_blank" rel="noopener noreferrer" aria-label="Me contacter sur WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.22 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg><span>WhatsApp</span></a>
+</body>
+</html>
